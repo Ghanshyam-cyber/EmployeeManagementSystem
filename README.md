@@ -1,6 +1,6 @@
 # Employee Management System
 
-An Employee Management System built with Java, Spring Boot, Thymeleaf, and HSQLDB.
+An Employee Management System built with Java, Spring Boot, Thymeleaf, HSQLDB and Bootstrap.
 
 ## Installation
 
@@ -17,7 +17,9 @@ An Employee Management System built with Java, Spring Boot, Thymeleaf, and HSQLD
 ## Technology Stack
 - Java
 - SpringBoot
+- Hibernate/JPA
 - Thymeleaf
+- Bootstrap
 - HSQLDB
 
 ## Features
