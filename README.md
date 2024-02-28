@@ -1,2 +1,27 @@
-# EmployeeManagementSystem
-Employee Management System is software program that helps to manage Employees(CRUD operations), using SpringBoot, Thymeleaf, MYSQL and JPA/Hibernate
+# Employee Management System
+
+An Employee Management System built with Java, Spring Boot, Thymeleaf, and HSQLDB.
+
+## Installation
+
+1. Clone the repository.
+2. Install dependencies using Maven: `mvn install`.
+3. Configure the database connection in `application.properties`.
+4. Run the application: `mvn spring-boot:run`.
+
+## Usage
+
+- Navigate to the application's homepage.
+- Perform CRUD operations on employees and departments.
+
+## Technology Stack
+- Java
+- SpringBoot
+- Thymeleaf
+- HSQLDB
+
+## Features
+
+- Centralized employee data management
+- Seamless department organization
+- Insightful report generation
