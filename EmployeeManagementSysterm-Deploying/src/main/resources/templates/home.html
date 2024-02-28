@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Employee Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+          background-color: #DCDCDC;
+        }
+        .description{
+          max-width: 1100px;
+          margin: 40px auto;
+          background-color: #fff;
+          padding: 25px;
+          border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" th:href="@{/}">Employee Management System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" aria-current="page" th:href="@{/}">Home</a>-->
+<!--                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" th:href="@{/employees-list}">Employees List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" th:href="@{/employee-form}">Add Employee</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1 class="text-center">Welcome to Employee Management System</h1>
+
+<div class="container">
+    <div class="description">
+        <h2>Introduction:</h2>
+        <p>Our Employee Management System is a comprehensive solution designed to streamline the
+            management of personnel data within organizations of all sizes. Built with efficiency
+            and ease of use in mind, our system empowers businesses to effectively manage their workforce,
+            optimize operations, and make data-driven decisions.
+        </p>
+
+        <h2>Features:</h2>
+        <p>
+        <ul>
+            <li>Employee Data Management:</li>
+                <p>Easily store and access employee information, including personal details, contact information, employment history, and more.</p>
+            <li>Department Management:</li>
+                <P>Organize employees into departments and manage department-specific information and workflows.</P>
+            <li>Customization Options:</li>
+                <P>Tailor the system to fit your organization's unique needs and workflows with customizable fields and settings</P>
+        </ul>
+        </p>
+
+        <h2>Technology Stack:</h2>
+        <p>
+            Built on robust technologies including Java, Spring Boot, Thymeleaf,
+            and HSQLDB, our system ensures reliability, scalability, and performance.
+        </p>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
